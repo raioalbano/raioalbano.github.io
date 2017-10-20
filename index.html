@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Raissa Albano Fujioka</title>
+</head>
+<body data-spy="scroll" data-target="#site-navbar" data-offset="80">
+
+  <!-- menu navbar-nav -->
+  <nav id="site-navbar" class="navbar navbar-inverse bg-primary navbar-toggleable-sm fixed-top">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content"
+      aria-expanded="false" aria-label="oi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a href="#" class="navbar-brand">Raíssa Albano Fujioka</a>
+      <div class="collapse navbar-collapse" id="menu-content">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul><!-- navbar-nav -->
+      </div><!-- collapse -->
+    </div><!-- container -->
+  </nav><!-- nav -->
+  <!-- end menu navbar-nav -->
+<div class="container">
+
+  <!--home-->
+  <section class="jumbotron jumbotron-fluid topic-area text-center" id="home">
+    <div class="container">
+      <h2 class="display-3">Hello World! I am Raissa!</h2>
+      <p class="lead">A software developer living in Kitchener ON Canada, looking for challenges and learning opportunities.</p>
+    </div><!-- container -->
+  </section>
+  <!-- end home -->
+
+  <!--about me-->
+  <section class="text-center" id="about-me">
+    <div class="container">
+  <!--<h1>Who Am I</h1>-->
+  <div class="text-center">
+
+          <img class="rounded-circle img-fluid" src="images/profile.jpg" alt="Profile Picture" style="width:200px">
+  </div>
+
+  <p>I work for <a href="http://clicksco.com/" target="_blank">Clicksco,</a> an amazing internet company based <br />in Dubai with a focus on great startups and innovative products.</p>
+
+  <div class="row social-icons">
+    <div class="col-sm-1 col-sm-offset-5">
+      <a class="icon-social icon-facebook" href="https://www.facebook.com/profile.php?id=747373351" target="_blank">Facebook</a>
+    </div>
+    <div class="col-sm-1">
+      <a class="icon-social icon-twitter" href="https://twitter.com/SteveWi66914199" target="_blank">Twitter</a>
+    </div>
+  </div>
+</div>><!-- container -->
+  </section>
+  <!-- end about me -->
+
+  <div class="content topic-area" id="works">
+    <h2>Works</h2>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+
+    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+
+  </div><!-- div works -->
+  <div class="content topic-area" id="skills">
+    <h2>Skills</h2>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+
+    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+
+  </div><!-- div skills -->
+  <div class="content topic-area" id="contact">
+    <h2>Contact</h2>
+    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+
+    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+
+  </div><!-- div contact -->
+
+
+</div><!-- content container -->
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+ $(function(){
+   var topoffset = 70;
+   //Use smooth scrolling when clicking on navigation
+   $('.navbar a[href*=\\#]:not([href=\\#])').click(function() {
+     if (location.pathname.replace(/^\//,'') ===
+       this.pathname.replace(/^\//,'') &&
+       location.hostname === this.hostname) {
+       var target = $(this.hash);
+       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+       if (target.length) {
+         $('html,body').animate({
+           scrollTop: target.offset().top-topoffset+2
+         }, 500);
+         return false;
+       } //target.length
+     } //click function
+   }); //smooth scrolling
+ });
+
+</script>
+</body>
+</html>
