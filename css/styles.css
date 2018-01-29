@@ -1,4 +1,154 @@
 body {
- padding-top: 60px;
  position: relative;
+}
+
+#home {
+  background: url(../images/back.jpg) no-repeat fixed center center / cover;
+}
+
+#skills, #contact {
+  background-color: #3f3d52;
+}
+
+#skills, #home, #works {
+  position: relative;
+  display: block;
+}
+
+#works {
+  height: 100%;
+}
+
+.home-area, .skills-area{
+ width: 100%;
+ height: 90%;
+ color: #fff;
+}
+
+.home-inner, .skills-inner, .works-inner {
+  height: 100vh;
+  min-height: 400px;
+  display: table;
+  width: 100%;
+}
+
+ .home-content, .skills-content, .works-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#skills .row .col-sm{
+  height: 50px;
+  padding-top: 10px;
+  background-color: #2e4097!important;;
+}
+
+#skills .experience-column{
+  padding: 40px 15px 15px 15px;
+}
+
+.logo-content{
+  max-width:300px;
+  height:120px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-color{
+  background-color: #141130!important;
+}
+
+#about-me, #skills, #works, #contact{
+  margin-top:60px;
+}
+
+p, nav-item {
+  margin: 0 0 35px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container-hover {
+  position: relative;
+  width: 50%;
+}
+
+.container-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container-overlay-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+#works .container-hover:hover .container-overlay-fade  {
+  opacity: 0.95;
+}
+
+.container-hover:hover .container-overlay  {
+  opacity: 1;
+  height:100%
+}
+
+.container-overlay-top  {
+  bottom: 100%;
+}
+.container-hover:hover .container-overlay-top  {
+  bottom:0;
+}
+.overlay-description {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 35px;
+}
+
+.arrow-down {
+  width: 48px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.arrow-down:hover {
+  background-color: black;
+}
+
+.table-hundred {
+  height:100%;
+}
+
+.work-item {
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
 }

@@ -3,90 +3,283 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <title>Raissa Albano Fujioka</title>
 </head>
-<body data-spy="scroll" data-target="#site-navbar" data-offset="80">
+<body data-spy="scroll" data-target="#site-navbar" data-offset="60">
 
   <!-- menu navbar-nav -->
-  <nav id="site-navbar" class="navbar navbar-inverse bg-primary navbar-toggleable-sm fixed-top">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button"
-      data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content"
-      aria-expanded="false" aria-label="oi">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <div class="container">
+    <nav id="site-navbar" class="navbar navbar-inverse nav-color navbar-toggleable-sm fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button"
+        data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content"
+        aria-expanded="false" aria-label="oi">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <a href="#" class="navbar-brand">Raíssa Albano Fujioka</a>
-      <div class="collapse navbar-collapse" id="menu-content">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul><!-- navbar-nav -->
-      </div><!-- collapse -->
-    </div><!-- container -->
-  </nav><!-- nav -->
+        <a href="#" class="navbar-brand">
+            <img class="logo" src="images/Logo.png" alt="Raissa's portfolio" >
+            <span>Raíssa Albano Fujioka</span>
+        </a>
+        <div class="collapse navbar-collapse" id="menu-content">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul><!-- navbar-nav -->
+        </div><!-- collapse -->
+    </nav><!-- nav -->
+  </div><!-- container -->
   <!-- end menu navbar-nav -->
-<div class="container">
 
   <!--home-->
   <section class="jumbotron jumbotron-fluid topic-area text-center" id="home">
-    <div class="container">
-      <h2 class="display-3">Hello World! I am Raissa!</h2>
-      <p class="lead">A software developer living in Kitchener ON Canada, looking for challenges and learning opportunities.</p>
-    </div><!-- container -->
+    <div class="home-area">
+      <div class="container">
+        <div class="row">
+          <div class="home-inner">
+            <div class="home-content">
+
+              <h1 class="display-4 container"><strong>Hello World, I'm Raissa!</strong></h1>
+              <p class="display-5" style="font-size: 25px">A Full-Stack Software Developer  in Kitchener, ON - Canada</p>
+              <a href="#about-me">
+                <i class="arrow-down rounded-circle fa fa-angle-double-down fa-3x" aria-hidden="true" ></i>
+              </a>
+            </div><!-- container -->
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
   <!-- end home -->
 
   <!--about me-->
-  <section class="text-center" id="about-me">
-    <div class="container">
-      <!--<h1>Who Am I</h1>-->
-      <div class="text-center">
+  <section class="container text-center" id="about-me">
+    <div class="row">
+      <div class="col-lg-12">
+      <p>
         <img class="rounded-circle img-fluid" src="images/profile.JPG" alt="Profile Picture" style="width:200px">
+      </p>
+      <h1>About me</h1>
+      <div class="text-justify">
+        <p>Computer Scientist graduted at UNIFESP - Brazil, studying Mobile Solutions Development at Conestoga College - Canada.</p>
+        <p>
+          I am a full-stack developer looking for new challenges. I have been programming since 2010, and I am passionate about creating solutions and changing other
+          people's lives through coding. When I am not working or studying, I like taking pictures, cooking and enjoying my family, after all, happiness is in the
+          balance between duties end joys. Scroll down to find out more about my professional profile.
+        </p>
       </div>
-    </div><!-- container -->
+    </div> <!--col-lg-12-->
+    </div><!-- row -->
   </section>
   <!-- end about me -->
 
-  <div class="content topic-area" id="works">
-    <h2>Works</h2>
-    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+  <section class="jumbotron jumbotron-fluid topic-area text-center" id="skills">
+    <div class="skills-area">
+      <div class="container">
+        <div class="skills-inner">
+          <div class="skills-content">
+            <h1>Skills</h1>
+            <div class="">
+              <p>I've been programming for over 5 years. I have experience in:</p>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3 experience-column container-hover">
+                <div >
+                  <figure class="experience-icon">
+                    <i class="fa fa-code fa-3x"></i>
+                  </figure>
+                  <h3>Coding</h3>
+                </div>
+                <div class="container-overlay container-overlay-top">
+                  <p class="overlay-description">Java, C, C++, C#, jQuery, JavaScript, AngularJS, Bootstrap</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 experience-column container-hover">
+                <div>
+                  <figure class="experience-icon">
+                    <i class="fa fa-desktop fa-3x"></i>
+                  </figure>
+                  <h3>Design</h3>
+                </div>
+                <div class="container-overlay ">
+                  <p class="overlay-description">HTML, CSS, XML, Photoshop</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 experience-column container-hover">
+                <div >
+                  <figure class="experience-icon">
+                    <i class="fa fa-database fa-3x"></i>
+                  </figure>
+                  <h3>Database</h3>
+                </div>
+                <div class="container-overlay container-overlay-top">
+                  <p class="overlay-description">MySQL, Oracle database, Postgres</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 experience-column container-hover">
+                <div>
+                  <figure class="experience-icon">
+                    <i class="fa fa-star fa-3x"></i>
+                  </figure>
+                  <h3>Others</h3>
+                </div>
+                <div class="container-overlay ">
+                  <p class="overlay-description">Teamwork, Scrum, Agile, Git</p>
+                </div>
+              </div>
+          	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- div skills -->
 
-    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+  <section class="container topic-area text-center" id="works">
+    <div class="table-hundred">
+      <div class="">
+        <div class="works-inner">
+          <div class="works-content">
+            <h1>Works</h1>
+            <p>Some of the projects that I have worked on:</p>
+            <div class="row">
+              <div class="card col-12 col-md-4 container-hover">
+                <div class="card-header">
+                  <div class="logo-content text-center mx-auto">
+                    <img class="img-fluid" src="images/work1.jpg" alt="WhiteBox project Logo" >
+                  </div><!--logo-content-->
+                  <h4 class="card-title">
+                    <a data-toggle="collapse" href="#card-block-work1" aria-exapanded="trye" aria-controls="card-block-work1">
+                      Business Intelligence Web Platform
+                    </a>
+                  </h4>
+                </div><!--card-header-->
+                <div id="card-block-work1" class="collapse" role="tabpanel" aria-labelledby="card-header-work1">
+                  <div class="card-block">
+                    <ul class="text-justify">
+                      <li>Maintenance and support</li>
+                      <li>Unit and integration test</li>
+                      <li>Development of new features to display more informative charts</li>
+                      <li>Display Pivot tables</li>
+                      <li>Layout redesigning using AngularJS</li>
+                    </ul>
+                  </div><!--card block-->
+                </div><!--card block container-->
+              </div><!-- card-->
+              <div class="card col-12 col-md-4 container-hover">
+                <div class="card-header">
+                  <div class="logo-content text-center mx-auto">
+                    <img class="img-fluid" src="images/work2.png" alt="MotionWise project Logo" >
+                  </div><!--logo-content-->
+                  <h4 class="card-title">
+                    <a data-toggle="collapse" href="#card-block-work2" aria-exapanded="trye" aria-controls="card-block-work2">
+                      Smart Appointment Scheduling
+                    </a>
+                  </h4>
+                </div><!--card-header-->
+                <div id="card-block-work2" class="collapse" role="tabpanel" aria-labelledby="card-header-work2">
+                  <div class="card-block">
+                    <ul class="text-justify">
+                      <li>Integration different projects' functionalities</li>
+                      <li>Development of custom features</li>
+                      <li>Maintenance and support</li>
+                      <li>Development of better solutions according to user experiences</li>
+                    </ul>
+                  </div><!--card block-->
+                </div><!--card block container-->
 
-  </div><!-- div works -->
-  <div class="content topic-area" id="skills">
-    <h2>Skills</h2>
-    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+              </div><!-- card-->
+              <div class="card col-12 col-md-4 container-hover">
+                <div class="card-header">
+                  <div class="logo-content text-center mx-auto">
+                    <img class="img-fluid" src="images/work33.jpg" alt="Research project Logo" >
+                  </div><!--logo-content-->
+                  <h4 class="card-title">
+                    <a data-toggle="collapse" href="#card-block-work3" aria-exapanded="trye" aria-controls="card-block-work3">
+                      Scholarship at Scientific Initiation
+                    </a>
+                  </h4>
+                </div><!--card-header-->
+                <div id="card-block-work3" class="collapse" role="tabpanel" aria-labelledby="card-header-work3">
+                  <div class="card-block">
+                    <ul class="text-justify">
+                      <li>Management  of projects applying Agile Methods and PMP (Project Management Profissional) guidelines</li>
+                      <li>Implementation machine learning algorithm to recognize the ECG peak.</li>
+                      <li>Development web system to manage the hospital diet</li>
+                    </ul>
+                  </div><!--card block-->
+                </div><!--card block container-->
+              </div><!-- card-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- div works -->
+  <section class=" topic-area text-center" id="contact">
+    <div class="skills-area">
+      <div class="container">
+        <div class="skills-inner">
+          <div class="skills-content">
+            <div class="row">
+              <div class="col-sm">
+                <h2><span class="rosso"></span>Contact me</h2>
+                <p></p>
+                <h4>email: raioalbano@gmail.com</h4>
+                <p><small>another contact methods:</small></p>
+                <ul class="list-inline banner-social-buttons">
+                  <li>
+                    <a href="https://www.facebook.com/raioalbano" class="btn btn-default btn-lg facebook-color" target="_blank">
+                      <i class="fa fa-facebook fa-fw"></i>
+                      <span class="network-name">Facebook</span>
+                    </a>
+                  </li>
 
-    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+                  <li>
+                    <a href="https://ca.linkedin.com/in/ra%C3%ADssa-albano-fujioka-8ex-container-hover554a8/en" class="btn btn-default btn-lg twitter-color" target="_blank">
+                      <i class="fa fa-linkedin fa-fw"></i>
+                      <span class="network-name">Linkedin</span>
+                    </a>
+                  </li>
 
-  </div><!-- div skills -->
-  <div class="content topic-area" id="contact">
-    <h2>Contact</h2>
-    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+                  <li title="GitHub">
+                    <a href="https://github.com/raioalbano/" class="btn btn-default btn-lg" target="_blank">
+                      <i class="fa fa-github fa-fw"></i>
+                      <span class="network-name">GitHub</span>
+                    </a>
+                  </li>
 
-    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
-
-  </div><!-- div contact -->
-
-
-</div><!-- content container -->
+                  <li>
+                    <a href="images/Resume - Raissa Albano Fujioka.pdf" class="btn btn-default btn-lg" target="_blank">
+                      <i class="fa fa-download fa-fw"></i>
+                      <span class="network-name">Resume</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/Chart.bundle.js"></script>
 <script src="js/scripts.js"></script>
+
 <script>
  $(function(){
-   var topoffset = 70;
+   var topoffset = 60;
    //Use smooth scrolling when clicking on navigation
    $('.navbar a[href*=\\#]:not([href=\\#])').click(function() {
      if (location.pathname.replace(/^\//,'') ===
